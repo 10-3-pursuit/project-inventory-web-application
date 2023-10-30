@@ -26,10 +26,6 @@ When the form is submitted correctly, a new resource is created. In this case, a
 
 ![A new resource is created.](./assets/create-new-resource.png)
 
-In this example, clicking "In Stock" or "Out of Stock" will toggle the value for that book. Notice how the label is visually distinctive depending on the status of the book.
-
-![Stock value can be toggled.](./assets/toggle-in-stock.png)
-
 ### Project Set up
 
 1. Create a GitHub repository.
@@ -69,6 +65,10 @@ When you submit your application, _make sure to include a description of any str
 - If a field is missing a value, provide a default value when a resource is created on the page.
 - Incorporate complex CSS properties like [transition effects](https://css-tricks.com/almanac/properties/t/transition/).
 - Create a Footer that sticks to the bottom of the browser window even if all elements have been removed.
+  In this example, clicking "In Stock" or "Out of Stock" will toggle the value for that book. Notice how the label is visually distinctive depending on the status of the book.
+
+![Stock value can be toggled.](./assets/toggle-in-stock.png)
+
 - If the form is submitted, error messages appear saying exactly what is wrong. In the image above, We see that the name, author, price, and in stock fields must be set and must fit certain requirements.
 
 ![The form shows errors.](./assets/form-submit-errors.png)
