@@ -10,7 +10,7 @@ This project will only use HTML, CSS & JavaScript (JS). It is not a NodeJS proje
 
 There are no tests for this project and you _should not_ fork and clone this repository. Instead, create a new repository.
 
-#### Example
+#### Project Example
 
 The following application chooses to use "books" as the main resource for this project.
 
