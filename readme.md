@@ -32,6 +32,11 @@ When the form is submitted correctly, a new resource is created. In this case, a
 1. Your GitHub repository should have a `README.md` file with a description of your app and cloning instructions. It should also include a link of your deployed project to pages.
 1. Deploy your application using Github Pages.
 
+### HTML
+
+You have the option to hard code your starting inventory on the HTML page.
+Start with a minimum of 3 or 4 products so that the page is immediately filled.
+
 ### Styling
 
 4. The page should have a cohesive and professional style, that makes use of a few specific colors.
