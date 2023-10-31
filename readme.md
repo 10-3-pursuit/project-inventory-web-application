@@ -4,6 +4,16 @@ In this project, you will build a simple inventory management application for a 
 
 This project will only use HTML, CSS & JavaScript (JS). It is not a NodeJS project so there is not need to `npm install` anything.
 
+## Project Scoring
+
+This project has two different parts on which you will be graded. Each part is weighted differently.
+
+- 60% of the project is scored on **completion**.
+- 30% of the project is scored through the **mastery rubric**.
+- 10% of the project is scored through **stretch goals**.
+
+In total, you must receive at least 70% to complete this project. For example, you could attain 50% of points through the completion requirements and 20% of points through the mastery rubric.
+
 ## Completion
 
 ### Project Overview
@@ -92,13 +102,3 @@ When you submit your application, _make sure to include a description of any str
 This section of the project is designed to measure your increasing skill at writing good code and following best practices.
 
 To view components of the mastery rubric, view the appropriate assignment on Canvas.
-
-## Project Scoring
-
-This project has two different parts on which you will be graded. Each part is weighted differently.
-
-- 60% of the project is scored on **completion**.
-- 30% of the project is scored through the **mastery rubric**.
-- 10% of the project is scored through **stretch goals**.
-
-In total, you must receive at least 70% to complete this project. For example, you could attain 50% of points through the completion requirements and 20% of points through the mastery rubric.
