@@ -40,7 +40,7 @@ Start with a minimum of 3 or 4 products so that the page is immediately filled.
 
 ### Styling
 
-4. The page should have a cohesive and professional style, that makes use of a few specific colors.
+4. The page should have a cohesive and professional style, that makes use of a few specific colors. [How To Choose Your Website Colors](https://www.upwork.com/resources/how-to-choose-color-scheme-for-website)
 1. The page should make use of CSS Grid, and include at least two columns.
 1. The page should have at least one responsive element on the page that changes depending on the screen's size.
 
@@ -57,8 +57,8 @@ Start with a minimum of 3 or 4 products so that the page is immediately filled.
 ### Interactive Features
 
 11. When a user clicks on the "Remove" button for each resource, that resource is removed from the page.
-1. The user should have a way to update the "in stock" value for existing resources. An interaction should change the resource from saying "in stock" to "out of stock," and vice versa.
-1. The form should require at least three of the fields of the resource to be required. If the "Submit" button is clicked and those requirements are not met, an `Required` message should be shown. The form fields should stay filled in and a resource should not be created.
+1. The user should have a way to dynamically update the "in stock" value for existing resources. An interaction should change the resource from saying "in stock" to "out of stock," and vice versa.
+1. The form should require at least three of the fields of the resource to be required. If the "Submit" button is clicked and those requirements are not met, a `Please fill out this field` message should be shown. The form fields should stay filled in and a resource should not be created.
 1. When the "Reset" button is clicked, the form should be cleared.
 1. When the form is completed correctly, the form should be cleared and a new resource should appear at the beginning of all previous resources.
 
