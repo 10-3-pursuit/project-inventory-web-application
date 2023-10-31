@@ -67,7 +67,8 @@ This section of the project measures your ability to go above and beyond in crea
 
 When you submit your application, _make sure to include a description of any stretch goals you implemented._ You may choose from the list below or come up with features or tasks that are more relevant to your specific implementation of the project.
 
-- If a field is missing a value, provide a default value when a resource is created on the page.
+- use [Local Storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) to persist your data and load that data into the application each time it refreshes
+- If a field is missing a value, provide a default value when a resource is created on the page. (such as an image placeholder)
 - Incorporate complex CSS properties like [transition effects](https://css-tricks.com/almanac/properties/t/transition/).
 - Create a Footer that sticks to the bottom of the browser window even if all elements have been removed.
   In this example, clicking "In Stock" or "Out of Stock" will toggle the value for that book. Notice how the label is visually distinctive depending on the status of the book.
