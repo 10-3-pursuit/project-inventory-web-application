@@ -8,7 +8,8 @@ This project will only use HTML, CSS & JavaScript (JS). It is not a NodeJS proje
 
 ### Project Overview
 
-There are no tests for this project and you _should not_ fork and clone this repository. Instead, create a new repository.
+Create a new repository for this project. Deploy your project to Github Pages.
+There are no tests for this project and you **should not** fork and clone this repository.
 
 #### Project Example
 
