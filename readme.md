@@ -2,7 +2,7 @@
 
 In this project, you will build a simple inventory management application for a single resource. That resource could be shoes, books, snacks, or anything else you are interested in. Through your application, you will be able to visually display a few resources, remove those resources, and create new resources. (The CRD of CRUD) This project will require heavy DOM manipulation in addition to a solid understanding of HTML and CSS.
 
-This project will only use HTML, CSS & JavaScript (JS). It is not a NodeJS project so there is not need to `npm install` anything.
+This project will only use HTML, CSS & JavaScript (JS). It is not a NodeJS project so there should be no need to `npm install`.
 
 ## Project Scoring
 
