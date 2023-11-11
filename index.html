@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Book Inventory Management</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Book Inventory Management</h1>
+    </div>
+
+    <div class="container">
+        <div class="resources">
+            <!-- Placeholder resources -->
+            <div class="resource" id="resource1">
+                <img src="https://cdn1.bookmanager.com/i/m?b=82EtCtTCIcs6DUpnBdXYEA&imgp=10001&cb=1628199006" alt="" width="150" height="225">
+                <h2>1.</h2>
+                <p>Name: Percy Jackson and the Olympians, Book Five</p>
+                <p>Price: $19.99</p>
+                <p>In Stock: 10</p>
+                <button onclick="startEditing('resource1')">In Stock: <span>10</span></button>
+                <button onclick="removeResource('resource1')">Remove</button>
+            </div>
+
+            <div class="resource" id="resource2">
+                <img src="https://online.fliphtml5.com/leyjy/xctc/files/large/1.jpg?1614363438" alt="" width="150" height="225">
+                <h2>2.</h2>
+                <p>Name: Cinderella</p>
+                <p>Price: $29.99</p>
+                <p>In Stock: 5</p>
+                <button onclick="removeResource('resource2')">Remove</button>
+            </div>
+
+            <div class="resource" id="resource3">
+                <img src="https://www.dispatch.com/gcdn/authoring/2014/03/21/NCOD/ghows-OH-84e55736-fe81-405b-9aa1-38c332406bd5-7365bfe9.jpeg?width=1200&disable=upscale&format=pjpg&auto=webp" alt="" width="150" height="225">
+                <h2>3.</h2>
+                <p>Name: Love Sense</p>
+                <p>Price: $24.99</p>
+                <p>In Stock: 8</p>
+                <button onclick="removeResource('resource3')">Remove</button>
+            </div>
+        </div>
+
+        <div class="form-container">
+            <h2>Add New Book</h2>
+            <form id="inventoryForm">
+                <label for="bookName">Name:</label>
+                <input type="text" id="bookName" required>
+
+                <label for="bookPrice">Price:</label>
+                <input type="number" id="bookPrice" step="0.01" required>
+
+                <label for="inStock">In Stock:</label>
+                <input type="number" id="inStock" required>
+
+                <button type="submit">Submit</button>
+                <button type="button" onclick="resetForm()">Reset</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
